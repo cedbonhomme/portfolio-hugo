@@ -1,5 +1,4 @@
 # Site settings
-baseurl = "http://cedbonhomme.github.io"
 languageCode = "en-us"
 title = "Cedric Bonhomme's Portfolio"
 theme = "hugo-freelancer-theme"
