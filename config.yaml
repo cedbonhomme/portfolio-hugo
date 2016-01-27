@@ -3,5 +3,5 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
   category: "categories"
-baseurl: "http://cedbonhomme.github.io"
+baseurl: "http://cedbonhomme.github.io/"
 canonifyurls: true
