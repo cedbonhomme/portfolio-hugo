@@ -1,0 +1,9 @@
+modalID: 3
+title: Dumb Rock Rocks
+date: March 2014 – May 2014
+img: dumbrockrocks.png
+contributor: Chloé Daurient
+contributorLink: "//www.linkedin.com/in/chlo%C3%A9-daurient-55853387/en"
+language: C++ 11
+library: SFML
+description: Inspired by a flash game this version was made using C++ and SFML graphic library. this project was the first where we were introduced object-oriented programming. The game let the user move a rock (the main character) on a grid by clicking on nearby cells. Each cell has a number on it that let the character move of n cells, n being the number. The user loose the game if he goes out of the grid, if he touch a bomb or if he's too slow to finish the level. The game is delivered with a complete Doxygen documentation and the source code.

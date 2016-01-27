@@ -1,0 +1,9 @@
+modalID: 6
+title: Qbear
+date: January 2015 - March 2015
+img: qbear.png
+contributor: Mathilde Guédon / Clément Binois / Oliver Chedeville / Thomas Francisco
+contributorLink: #
+language: Qt/C++ / MySQL
+library: Qt
+description: Managing tools for a typical selling merchandise company. This application allows the manipulation of clients, employees, merchandise and checkouts.

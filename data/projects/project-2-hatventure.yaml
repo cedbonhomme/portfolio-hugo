@@ -1,0 +1,9 @@
+modalID: 2
+title: Swag HatVenture
+date: October 2013 – December 2013
+img: swaghatventure.png
+contributor: Corentin Bienassis
+contributorLink: #
+language: C++ 11
+library: SDL
+description: Inspired by the mobile game pudding monster, this version was made using C++ and the SDL graphic library. The game let the user play to 9 levels were the goal is to wake up sleepy monsters by moving the main character on a 8*8 grid. A level editor has been added so that new levels could be made. Hightscores are also avaible on the menu.
