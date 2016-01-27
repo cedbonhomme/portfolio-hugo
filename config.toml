@@ -1,5 +1,6 @@
 # Site settings
 languageCode = "en-us"
+baseurl = "http://cedbonhomme.github.io/"
 title = "Cedric Bonhomme's Portfolio"
 theme = "hugo-freelancer-theme"
 
@@ -30,11 +31,11 @@ theme = "hugo-freelancer-theme"
         brand = "Cedric Bonhomme"
 
 
-    [params.header]
-        # Copy your own image into './static/img/'' if you wish
-        image = "profile_picture_medium.png"
-        name = "Cedric Bonhomme"
-        subtitle = "Ruby On Rails && Qt/QML developer"
+    # [params.header]
+    #     # Copy your own image into './static/img/'' if you wish
+    #     image = "profile_picture_medium.png"
+    #     name = "Cedric Bonhomme"
+    #     subtitle = "Ruby On Rails && Qt/QML developer"
 
 
     [params.portfolio]
