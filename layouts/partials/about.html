@@ -8,17 +8,72 @@
             </div>
         </div>
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-            <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
+        <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3><i class="fa fa-{{.Site.Params.about.skills.icon}}"></i>{{ with .Site.Params.about.skills.title}}{{.}}{{ end }}</h3>
+              </div>
+              <table class="table">
+                <tbody>
+                  {{ range .Site.Data.skills }}
+                  <tr>
+                    <td>
+                      <b>{{ .title }}</b>
+                    </td>
+                    <td>
+                      {{ .text }}
+                    </td>
+                  </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+            </div>
         </div>
-            <div class="col-lg-4">
-                <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
+        <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3><i class="fa fa-{{.Site.Params.about.education.icon}}"></i>{{ with .Site.Params.about.education.title}}{{.}}{{ end }}</h3>
+              </div>
+              <table class="table">
+                <tbody>
+                  {{ range sort .Site.Data.education ".date" "desc"}}
+                  <tr>
+                    <td>
+                      {{ .date }}
+                    </td>
+                    <td>
+                      <b>{{ .text }}</b>
+                    </td>
+                    <td>
+                      {{ .address }}
+                    </td>
+                  </tr>
+                  {{ end }}
+                </tbody>
+              </table>
             </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="{{ with .Site.Params.about.button.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
-                    <i class="fa fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}
-                </a>
+        </div>
+        <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3><i class="fa fa-{{.Site.Params.about.languages.icon}}"></i>{{ with .Site.Params.about.languages.title}}{{.}}{{ end }}</h3>
+              </div>
+              <table class="table">
+                <tbody>
+                  {{ range .Site.Data.languages }}
+                  <tr>
+                    <td>
+                      <b>{{ .title }}</b>
+                    </td>
+                    <td>
+                      {{ .text }}
+                    </td>
+                  </tr>
+                  {{ end }}
+                </tbody>
+              </table>
             </div>
+        </div>
         </div>
     </div>
 </section>

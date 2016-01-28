@@ -116,8 +116,10 @@ section {
     margin: 0;
     font-size: 3em; }
   section.success {
-    color: #fff;
+    color: #212121;
     background: #212121; }
+    section.success h2 {
+      color: #2196F3; }
     section.success a {
       outline: 0;
       color: #2196F3; }

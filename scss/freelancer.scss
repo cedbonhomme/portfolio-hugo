@@ -165,8 +165,11 @@ section {
     font-size: 3em;
   }
   &.success {
-    color: #fff;
+    color: $primary-color;
     background: $primary-color;
+    h2 {
+      color: $secondary-color
+    }
     a {
       outline: 0;
       color: $secondary-color;
