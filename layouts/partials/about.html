@@ -18,7 +18,8 @@
                   {{ range .Site.Data.skills }}
                   <tr>
                     <td>
-                      <b>{{ .title }}</b>
+                      <i class="fa fa-{{ .icon }}"><b>{{ .title }}</b></i>
+                      <!-- <b>{{ .title }}</b> -->
                     </td>
                     <td>
                       {{ .text }}

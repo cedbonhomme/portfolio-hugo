@@ -1034,7 +1034,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
   color: #2196F3;
@@ -1126,7 +1126,7 @@ hr {
   cursor: pointer; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: 400;
   line-height: 1.1;
   color: inherit; }
@@ -1366,7 +1366,7 @@ address {
   line-height: 1.42857143; }
 
 code, kbd, pre, samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+  font-family: "Oxygen", sans-serif; }
 
 code {
   padding: 2px 4px;
@@ -5283,7 +5283,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5389,7 +5389,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
