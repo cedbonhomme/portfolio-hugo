@@ -6813,22 +6813,22 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
 }
 
 .panel-success {
-  border-color: $accent-color;
+  border-color: #18bc9c;
   > {
     .panel-heading {
       color: #ffffff;
-      background-color: $accent-color;
-      border-color: $accent-color;
+      background-color: #18bc9c;
+      border-color: #18bc9c;
       + .panel-collapse > .panel-body {
-        border-top-color: $accent-color;
+        border-top-color: #18bc9c;
       }
       .badge {
-        color: $accent-color;
+        color: #18bc9c;
         background-color: #ffffff;
       }
     }
     .panel-footer + .panel-collapse > .panel-body {
-      border-bottom-color: $accent-color;
+      border-bottom-color: #18bc9c;
     }
   }
 }

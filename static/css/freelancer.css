@@ -20,7 +20,7 @@ a {
     color: #6ab8f7; }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Oxygen", sans-serif;
   font-weight: 700; }
 

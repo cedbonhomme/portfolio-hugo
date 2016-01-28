@@ -5047,18 +5047,18 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
     border-bottom-color: #2196F3; }
 
 .panel-success {
-  border-color: #1976D2; }
+  border-color: #18bc9c; }
   .panel-success > .panel-heading {
     color: #ffffff;
-    background-color: #1976D2;
-    border-color: #1976D2; }
+    background-color: #18bc9c;
+    border-color: #18bc9c; }
     .panel-success > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #1976D2; }
+      border-top-color: #18bc9c; }
     .panel-success > .panel-heading .badge {
-      color: #1976D2;
+      color: #18bc9c;
       background-color: #ffffff; }
   .panel-success > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #1976D2; }
+    border-bottom-color: #18bc9c; }
 
 .panel-info {
   border-color: #3498db; }
