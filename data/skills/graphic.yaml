@@ -1,4 +1,5 @@
 id: 6
 icon: picture-o
+color: purple
 title: "Graphic Library"
 text: "Qt / QML, OpenGL, Bacon2D, SFML, SDL"

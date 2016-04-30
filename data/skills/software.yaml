@@ -1,4 +1,5 @@
 id: 5
 icon: cogs
+color: black
 title: "Softwares"
-text: "QtCreator, RubyMine, IntelliJ IDEA, Atom, Vim, Git, Visual Studio, LATEX"
+text: "QtCreator, RubyMine, Atom, IntelliJ IDEA, Git"

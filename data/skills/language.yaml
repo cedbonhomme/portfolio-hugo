@@ -1,4 +1,5 @@
 id: 1
 icon: code
+color: red
 title: "Languages"
-text: "C/C++, Qt, QML, Ruby, Java, C#, Bash, PowerPc Assembly"
+text: "C/C++, Qt, QML, Ruby, Node.js, Python"

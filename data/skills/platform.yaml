@@ -1,4 +1,5 @@
 id: 4
 icon: linux
+color: amber
 title: "Platform"
-text: "Gnu/Linux, Android / SailfishOS / Ubuntu Touch, Windows, OS X"
+text: "Gnu/Linux, Android / SailfishOS / Ubuntu Touch"

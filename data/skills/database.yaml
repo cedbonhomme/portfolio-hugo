@@ -1,4 +1,5 @@
 id: 3
 icon: database
+color: green
 title: "Database"
-text: "PostgreSQL, Mysql, SQL Server"
+text: "PostgreSQL"
