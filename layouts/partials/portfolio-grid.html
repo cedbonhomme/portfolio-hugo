@@ -15,11 +15,26 @@
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">{{ .title }}<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">This is a link</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">{{ .title }}<i class="material-icons right">close</i></span>
             <p>{{ .description | markdownify }}</p>
+            <ul class="list-inline item-details">
+                {{ if .contributor }}
+                <li>{{ with $.Site.Params.portfolio.modal.contributor }}{{.}}{{ end }}:
+                    <strong><a href="{{ .contributorLink }}">{{ .contributor }}</a></strong>
+                </li>
+                {{ end }}
+                <li>{{ with $.Site.Params.portfolio.modal.date }}{{.}}{{ end }}:
+                    <strong>{{ .date }}</strong>
+                </li>
+                <li>{{ with $.Site.Params.portfolio.modal.language }}{{.}}{{ end }}:
+                    <strong>{{ .language }}</strong>
+                </li>
+                <li>{{ with $.Site.Params.portfolio.modal.library }}{{.}}{{ end }}:
+                    <strong>{{ .library }}</strong>
+                </li>
+            </ul>
           </div>
         </div>
       </div>
