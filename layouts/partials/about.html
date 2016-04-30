@@ -7,6 +7,7 @@
       </div>
     </div>
     <div class="row">
+
       <div class="col s12">
         <h3 class="header">
           <i class="fa fa-{{.Site.Params.about.skills.icon}}"></i>
@@ -22,6 +23,23 @@
           {{ end }}
         </ul>
       </div>
+
+      <div class="col s12">
+        <h3 class="header">
+          <i class="fa fa-{{.Site.Params.about.languages.icon}}"></i>
+          {{ with .Site.Params.about.languages.title}}{{.}}{{ end }}
+        </h3>
+        <ul class="collection">
+          {{ range sort .Site.Data.languages ".id" "asc"}}
+          <li class="collection-item avatar">
+            <i class="circle white"><span class="flag flag-svg-small flag-{{ .lang }}"></span></i>
+            <span class="title">{{ .title }}</span>
+            <p>{{ .text }}</p>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
       <div class="col-lg-6">
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -49,30 +67,7 @@
           </table>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <h3>
-              <i class="fa fa-{{.Site.Params.about.languages.icon}}"></i>
-              {{ with .Site.Params.about.languages.title}}{{.}}{{ end }}
-            </h3>
-          </div>
-          <table class="table table-hover">
-            <tbody>
-              {{ range sort .Site.Data.languages ".id" "asc"}}
-              <tr>
-                <td>
-                  <b>{{ .title }}</b>
-                </td>
-                <td>
-                  {{ .text }}
-                </td>
-              </tr>
-              {{ end }}
-            </tbody>
-          </table>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
