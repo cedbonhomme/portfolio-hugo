@@ -40,32 +40,21 @@
         </ul>
       </div>
 
-      <div class="col-lg-6">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3>
-              <i class="fa fa-{{.Site.Params.about.education.icon}}"></i>
-              {{ with .Site.Params.about.education.title}}{{.}}{{ end }}
-            </h3>
-          </div>
-          <table class="table table-hover">
-            <tbody>
-              {{ range sort .Site.Data.education ".date" "desc"}}
-              <tr>
-                <td>
-                  {{ .date }}
-                </td>
-                <td>
-                  <b>{{ .text }}</b>
-                </td>
-                <td>
-                  {{ .address }}
-                </td>
-              </tr>
-              {{ end }}
-            </tbody>
-          </table>
-        </div>
+      <div class="col s12">
+        <h3 class="header">
+          <i class="fa fa-{{.Site.Params.about.languages.icon}}"></i>
+          {{ with .Site.Params.about.education.title}}{{.}}{{ end }}
+        </h3>
+        <ul class="collection">
+          {{ range sort .Site.Data.education ".date" "desc"}}
+          <li class="collection-item avatar">
+            <i class="circle fa fa-{{ .icon }} {{ .color }}"></i>
+            <span class="badge">{{ .date }}</span>
+            <span class="title">{{ .text }}</span>
+            <p>{{ .address }}</p>
+          </li>
+          {{ end }}
+        </ul>
       </div>
 
     </div>
