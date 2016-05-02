@@ -1,16 +1,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#FF8A65">
 {{ .Hugo.Generator }}
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
 <title>{{ .Site.Title }}</title>
 <!--Import Google Icon Font-->
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--Import materialize.css-->
 <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/materialize.css"  media="screen,projection"/>
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 <link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet" type="text/css">
