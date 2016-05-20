@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="row">
-    {{ range sort .Site.Data.projects .Site.Data.projects "desc"}}
+    {{ range sort .Site.Data.projects "modalID" "desc"}}
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
