@@ -3,4 +3,4 @@ title: Rails Application
 date: June - WIP
 img: rails.png
 language: Rails, Ruby, CoffeeScript, SASS, Foundation, Rails Unit Test, Mysql
-description: Rails Application with Admin Dashboard and Users account. Form to subscribe, form to update account, form to select products. Validation rules server side and client side. Unit Testing on all new features. Use of Rails best practices using tools like Rubocop to help find offenses. SASS theming and CoffeeScript for client scripts.
+description: Rails Application with Admin Dashboard and Users account. Form to subscribe, form to update account, form to select products. Validation rules server side and client side. Unit Testing on all new features. Use of Rails best practices using tools like Rubocop to help find offenses. SASS theming and CoffeeScript for client scripts. Email sending to clients on events. Models/Controllers/Views creation, migrations to database. Tests on Models and Controllers.
