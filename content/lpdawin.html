@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body id="page-top" class="index">
+
+  {{ partial "nav.html" . }}
+
+  <!-- {{ partial "header.html" . }} -->
+  <div class="parallax-container hide-on-small-only">
+    <div class="parallax"><img src="img/parallax1.jpg"></div>
+  </div>
+
+  <div class="container">
+    <ul>
+      <li><a href="../lpro_dawin/diplome_dut.png">diplome_dut</a></li>
+      <li><a href="../lpro_dawin/avispoursuite.png">avispoursuite</a></li>
+      <li><a href="../lpro_dawin/notepoursuite.png">notepoursuite</a></li>
+      <li><a href="../lpro_dawin/note_s1.png">note_s1</a></li>
+      <li><a href="../lpro_dawin/note_s2.png">note_s2</a></li>
+      <li><a href="../lpro_dawin/note_s3.png">note_s3</a></li>
+      <li><a href="../lpro_dawin/note_s4.png">note_s4</a></li>
+      <li><a href="../lpro_dawin/toeic.png">toeic</a></li>
+      <li><a href="../lpro_dawin/diplome_bac.png">diplome_bac</a></li>
+    </ul>
+  </div>
+
+  <div class="parallax-container hide-on-small-only">
+    <div class="parallax"><img src="img/parallax2.jpg"></div>
+  </div>
+
+
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+
+</body>
+</html>
