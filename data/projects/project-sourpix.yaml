@@ -1,0 +1,7 @@
+modalID: 9
+title: Sourpix
+date: Mars 26 - WIP
+img: sourpix.png
+language: Qt/QML, Python, Javascript
+library: QML Material, PixivPy
+description: A Qt/QML Pixiv Client using PixivPy python API client.

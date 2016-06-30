@@ -1,4 +1,5 @@
 id: 2
 icon: globe
+color: blue
 title: "Web"
-text: "Ruby On Rails, AWS, HTML5/CSS3, JavaScript, jQuery, Php, Bootstrap, Polymer, SASS, JSON, XML, Wordpress CMS"
+text: "Ruby On Rails, AWS, Docker, HTML5/CSS3/SASS, Node.js/JavaScript/jQuery, Bootstrap, Polymer, Materialize"

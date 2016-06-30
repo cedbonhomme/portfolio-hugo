@@ -1,9 +1,0 @@
-modalID: 7
-title: TwinStrangers.com
-date: May 2015 - June 2015
-img: twinstrangers.png
-contributor:
-contributorLink:
-language: Ruby
-library: Ruby On Rails / PostgreSQL / AWS
-description: Ruby On Rails Web Application made for Vision Independant Production, Dublin to go with their show. Twinstranger.com is a website that help its users find their match by searching with their provided facial features. When a user find their match they can be contacted by VIP to be part of the show.

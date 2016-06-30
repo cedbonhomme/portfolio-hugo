@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
-    <body id="page-top" class="index">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body id="page-top" class="index">
 
-        {{ partial "nav.html" . }}
+  {{ partial "nav.html" . }}
 
-        <br /><br />
+  <!-- {{ partial "header.html" . }} -->
+  <div class="parallax-container hide-on-small-only">
+    <div class="parallax"><img src="img/parallax1.jpg"></div>
+  </div>
+  {{ partial "portfolio-grid.html" . }}
+  <div class="parallax-container hide-on-small-only">
+    <div class="parallax"><img src="img/parallax2.jpg"></div>
+  </div>
+  {{ partial "about.html" . }}
+  <!-- {{ partial "contact.html" . }} -->
 
-        <!-- {{ partial "header.html" . }} -->
-        {{ partial "portfolio-grid.html" . }}
-        {{ partial "about.html" . }}
-        {{ partial "contact.html" . }}
+  {{ partial "footer.html" . }}
+  {{ partial "modals.html" . }}
+  {{ partial "js.html" . }}
 
-        {{ partial "footer.html" . }}
-        {{ partial "modals.html" . }}
-        {{ partial "js.html" . }}
-
-    </body>
+</body>
 </html>

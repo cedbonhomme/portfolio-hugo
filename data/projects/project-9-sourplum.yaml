@@ -1,9 +1,0 @@
-modalID: 9
-title: sourplum.herokuapp.com
-date: December 2015 (1 week challenge)
-img: sourplum.png
-contributor:
-contributorLink:
-language: Ruby / PostgreSQL
-library: Ruby On Rails / Polymer
-description: Social media (Reddit like). Made using Polymer, Ruby On Rails and love. A user after registration can participate in the community by creating/editing/browsing subs, posts and comments.

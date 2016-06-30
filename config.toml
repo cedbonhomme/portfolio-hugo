@@ -2,7 +2,6 @@
 languageCode = "en-us"
 baseurl = "http://cedbonhomme.github.io/"
 title = "Cedric Bonhomme's Portfolio"
-theme = "hugo-freelancer-theme"
 
 [params]
 
@@ -106,6 +105,10 @@ theme = "hugo-freelancer-theme"
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
+                icon = "fa-gitlab"
+                link = "//gitlab.com/sourplum"
+
+            [[params.footer.social.networks]]
                 icon = "fa-bitbucket"
                 link = "//bitbucket.org/cedbonhomme"
 
@@ -114,5 +117,5 @@ theme = "hugo-freelancer-theme"
                 link = "//github.com/cedbonhomme"
 
             [[params.footer.social.networks]]
-                icon = "fa-linkedin"
+                icon = "fa-money"
                 link=  "//linkedin.com/in/cedricbonhomme"

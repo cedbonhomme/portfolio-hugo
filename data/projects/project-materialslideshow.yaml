@@ -1,0 +1,9 @@
+modalID: 7
+title: QML Material SlideShow
+date: December 2015
+img: qmlmaterialslideshow.png
+contributor:
+contributorLink:
+language: Qt/QML
+library: Qt/QML
+description: Qt/QML application to help you make your own presentations in Qml, following the Material Design Guideline.

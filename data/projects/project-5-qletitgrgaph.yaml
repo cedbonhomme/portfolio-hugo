@@ -1,9 +1,0 @@
-modalID: 5
-title: QLetItGraph
-date: November 2014
-img: QLetItGraph.png
-contributor:
-contributorLink:
-language: Qt/C++
-library: Qt OpenGL
-description: Qt Application using Opengl to render a 3d element controlled by the user with mouse and sliders. This is my first Qt Application and its purpose is for me to learn more about this beautiful framework and about its OpenGL integration.
